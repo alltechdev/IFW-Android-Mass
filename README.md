@@ -29,7 +29,7 @@ which pm commands will not work on.
 
 Open it, search for your app and find the activities you want to block. Toggle them off. They are now blocked.
 
-If you want to build it into a rom (script to place it and give correct ownership and permissions on bottom of this post), go to the settings page from the top right (3 dots), choose a backup folder and export your configuration. Your output will be xml files.
+If you want to build it into a rom (script to place it and give correct ownership and permissions on bottom of this page), go to the settings page from the top right (3 dots), choose a backup folder and export your configuration. Your output will be xml files.
 
 **Example XML file**
 ```
