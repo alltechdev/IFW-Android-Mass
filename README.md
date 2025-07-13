@@ -9,7 +9,7 @@ How to use **IFW (Intent Firewall)** to block specific activities without breaki
 > Intent Firewall, indeed it is a firewall, it has no impact on component status. The application detects the component is on, but it just cannot start the component.
 
 
-Thanks **@TripleU** for mentioning IFW recently, I looked into it because of that.
+Thanks **[@TripleU](https://github.com/TripleU613)** for mentioning IFW recently, I looked into it because of that.
 
 Stop trying to modify apps, do this instead.
 
