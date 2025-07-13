@@ -3,14 +3,12 @@ How to use IFW (Intent Firewall) to block specific activities without breaking a
 
 **SCROLL TO THE BOTTOM FOR BOOT SCRIPT - CREDIT @chatzie**
 
-[quote]
 # Intent Firewall
 Intent Firewall was introduced in Android 4.4.2 (API 19) and is still effective in the latest Android systems. It is integrated into the Android Framework to filter the intents sent by applications or systems.
 
 Intent Firewall, indeed it is a firewall, it has no impact on component status. The application detects the component is on, but it just cannot start the component.
-[/quote]
 
-Thanks @TripleU for mentioning IFW recently, I looked into it because of that.
+Thanks **@TripleU** for mentioning IFW recently, I looked into it because of that.
 
 Stop trying to modify apps, do this instead.
 
@@ -67,6 +65,6 @@ on post-fs-data
     restorecon -R /data/system/ifw
 ```
 
-Put the rules (xml files) in ```/system/etc/ifw```
+Put the rules (xml files) in **```/system/etc/ifw```**
 
 Build super and reflash, no need to erase userdata.
