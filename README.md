@@ -1,12 +1,13 @@
 # IFW-Android-Mass
-How to use IFW (Intent Firewall) to block specific activities without breaking app functionality. Boot script and instructions to mass produce. All users listed are from forums.jtechforums.org
+How to use **IFW (Intent Firewall)** to block specific activities without breaking app functionality. Boot script and instructions to mass produce. All users listed are from forums.jtechforums.org
 
 **SCROLL TO THE BOTTOM FOR BOOT SCRIPT - CREDIT @chatzie**
 
-# Intent Firewall
-Intent Firewall was introduced in Android 4.4.2 (API 19) and is still effective in the latest Android systems. It is integrated into the Android Framework to filter the intents sent by applications or systems.
+> **Intent Firewall (Quoted from below app developers page**  
+> Intent Firewall was introduced in Android 4.4.2 (API 19) and is still effective in the latest Android systems. It is integrated into the Android Framework to filter the intents sent by applications or systems.  
+>  
+> Intent Firewall, indeed it is a firewall, it has no impact on component status. The application detects the component is on, but it just cannot start the component.
 
-Intent Firewall, indeed it is a firewall, it has no impact on component status. The application detects the component is on, but it just cannot start the component.
 
 Thanks **@TripleU** for mentioning IFW recently, I looked into it because of that.
 
